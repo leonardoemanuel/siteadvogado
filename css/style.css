@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Cabeçalho*/
+header{
+    display: flex;
+    padding: 10px 40px;
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#ffbf00;
+    
+}
+header a{
+    height:8vh;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    
+}
+header img{
+    width: 2.5em;
+}
+/*NAVEGAÇAO*/
+nav{
+    display: flex;
+    background-color: black;
+    
+}
+nav a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    color: #ffbf00;
+    font-weight:bolder;
+}
+nav a:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+section#apresentacao{
+    height: 80vh;
+    width: 100%;
+    background-image:url(../imagens/pexels-andrea-piacquadio-3771097.jpg);
+    background-size: cover;
+    background-position:bottom center;
+    display: flex;
+    flex-direction:column;
+    gap: 1.3em;
+    justify-content: center;
+    text-align: center;
+    font-family:'Noto Serif Display', serif;
+}
+#apresentacao h2{
+    color: white;
+    font-size:2em;
+    font-weight: bolder;
+    background-color:rgba(0, 0, 0, 0.363);
+}
+#apresentacao p{
+    color: white;
+    font-size:1.3em;
+    font-weight: bolder;
+    background-color:rgba(0, 0, 0, 0.363);
+    
+}
+section#areas{
+    margin:  80px 0px ;
+    display: flex;
+    gap: 2em;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    height:auto;
+    align-items: center;
+    
+}
+#areas div{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    width:30%;
+    gap: 1em;
+    border: 1px solid black;
+    background-color: #ffbf00;
+
+}
+#areas div > img{
+    margin: auto;
+    width:10vh;
+}
+/*footer*/
+footer{
+    background-color:black;
+    text-align: center;
+    padding: 20px;
+    
+}
+footer p{
+    color: white;
+}
