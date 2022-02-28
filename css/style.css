@@ -90,6 +90,8 @@ section#areas{
     padding: 5px;
     justify-content: space-between;
     height:auto;
+    width: 30%;
+    flex-wrap: wrap;
     gap: 1em;
     border: 1px solid black;
     background-color: #ffbf00;
