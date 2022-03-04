@@ -79,6 +79,26 @@ section#apresentacao{
     background-color:rgba(0, 0, 0, 0.363);
     
 }
+/*section welcome*/
+section#welcome{
+    background-color:black;
+    color: #ffbf00;
+    text-align: center;
+    font-family:'Noto Serif Display', serif; 
+
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#welcome p{
+    font-size: 1.3em;
+}
+#welcome h2{ 
+    font-size: 1.8em;
+}
+/*section areas*/
 section#areas{
     margin:  80px 0px ;
     display: flex;
@@ -99,13 +119,13 @@ section#areas{
     width: 30%;
     flex-wrap: wrap;
     gap: 1em;
-    background-color: #dbdbdb;
+    background-color: #ebe7e7;
 
 }
 
 #areas div > img{
     margin: auto;
-    width:10vh;
+    width:7vh;
     padding: 10px;
     border-radius: 50%;
     background-color: #ffbf00;
