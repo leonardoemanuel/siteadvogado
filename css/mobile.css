@@ -70,13 +70,13 @@ section#apresentacao{
 }
 #apresentacao h2{
     color: white;
-    font-size:2em;
+    font-size:1.8em;
     font-weight: bolder;
     background-color:rgba(0, 0, 0, 0.363);
 }
 #apresentacao p{
     color: white;
-    font-size:1.3em;
+    font-size:1.1em;
     font-weight: bolder;
     background-color:rgba(0, 0, 0, 0.363);
     
@@ -95,10 +95,10 @@ section#welcome{
     gap: 20px;
 }
 #welcome p{
-    font-size: 1.3em;
+    font-size: 1em;
 }
 #welcome h2{ 
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 /*section areas*/
 section#areas{
@@ -111,18 +111,17 @@ section#areas{
     height:auto;
     align-items: center;
 }
-#areas div{    font-family: Arial, Helvetica, sans-serif;
+#areas div{    
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 5px;
-    justify-content: space-between;
+    padding: 1rem;
     height:30%;
-    width: 30%;
+    width: 100%;
     flex-wrap: wrap;
     gap: 1em;
     background-color: #ebe7e7;
-
 }
 
 #areas div > img{
